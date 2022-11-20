@@ -1,5 +1,3 @@
-@import url(/img/neve.png);
-
 body{
   font-family: Arial, Helvetica, sans-serif;
   margin: 0rem;
@@ -7,10 +5,10 @@ body{
   justify-items: center !important;
   background-color: rgb(247, 247, 247); 
   display: grid; 
-  background-image: url(/img/deusiop.png), url(/img/deusaeni.png), url(/img/eca.png), url(/img/deussad.png), url(/img/deussram.png), url(/img/deusxelor.png),url(/img/deusacra.png), url(/img/deusafeca.png), url(/img/Deusa_Sacrier2.webp), url(/img/deuosamodas.png), url(/img/deusaeni.png);
-  background-position: top left, right 7%, left 25%, right 35%, left 50%, right 65%, left 75%, right 100%, left 100%, right 85%;
+  background-image: url(/img/deusiop.png), url(/img/deusaeni.png), url(/img/eca.png), url(/img/deussad.png), url(/img/deussram.png), url(/img/deusxelor.png),url(/img/deusacra.png), url(/img/deusafeca.png), url(/img/Deusa_Sacrier2.webp), url(/img/deuosamodas.png);
+  background-position: top left, right 4%, left 25%, right 35%, left 50%, right 65%, left 75%, right 100%, left 100%, right 85%;
   background-repeat: no-repeat;  
-  background-size: 30%, 30%, 20%, 16%, 20%, 16%, 19%, 17%, 25%, 18%;
+  background-size: 30%, 30%, 21%, 18%, 18%, 18%, 20%, 17%, 25%, 20%;
 }
 
 @keyframes snow {
@@ -35,33 +33,32 @@ body{
   overflow: hidden;
 }
 
-.teste{
-  width: 850px;
-  margin: auto;
+.select{
+  display: grid;
+  justify-items: center;
+}
+
+.select img{
+  max-width: 50%;
+  display: inline-block;
+  margin-top: 40px;
   position: relative;
-  margin-bottom: 0px;
 }
 
-.teste img{
-  width: 100%;
-}
+.introducao-cover video{   
+    margin: auto;  
+    padding-top: 100px;  
+    padding-bottom: 100px; 
+    height: auto;
+    width: 95%;  
+  }
 
-img{
-  width: 70%;
-  display: block;
-  padding: 50px 0px 50px 0px;  
-}
-
-.sac-video, .iop-video, .sram-video, .cra-video, .osa, .xelor-video, .enu-video, .sad-video, .eca-video, .eni-video, .feca-video{   
-  display: block;
-  width: 100%;
-  padding-top: 20%; 
-  background-color: #fff;
-  /*border-right: #fff solid 30px;*/
-  margin-right: 150px;
-  padding-right: 32px;
-  padding-bottom:20%;
-  position: static;
+  .introducao-cover img{
+    margin: auto;  
+    padding-top: 100px;  
+    padding-bottom: 100px; 
+    height: auto;
+    width: 95%;    
   }
 
  /* .sram:hover, .sram:focus{
@@ -107,6 +104,7 @@ img{
 
   .enu-video{
     border-block-end:rgb(6, 100, 29) dotted 10px;
+    margin-top: auto;
   }
 
   .mais{
@@ -122,35 +120,10 @@ img{
     font-weight: bold; 
     font-family: 'Nunito Sans', sans-serif;   
   }
-
-  
+    
   .mais:hover{   
     background-color: rgba(8, 28, 141, 0.123);
   }
-
-  .ocrev{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 600px;
-  justify-content: center;
-  position: relative;
-  width: 150px;
-  margin-top: -200px;
-  padding-top: 0px;
-  margin-right: -50px;
-}
-
-.ocre, .vulbis{
-  width: 150px;
-}
-
-.center{
-  position: absolute;
-  top: 50%;
-  left: 30%;    
-  text-align: center;
-  padding: 40px 20px;
-}
 
 ul{
   margin: 0rem;
@@ -158,28 +131,25 @@ ul{
   list-style: none;
 }
 
-p, h1, h2, h3{
-  margin: 0rem;  
+p, h2{   
+ margin: auto;
+  text-align: center;
   font-family: 'Nunito Sans', sans-serif;
 }
 
-h1{
-  top: 0px;
-  font-family: Arial, Helvetica, sans-serif;
-  color:rgba(75, 73, 73, 0.952);
-  text-shadow: 2px 1px 10px rgba(212, 97, 8, 0.945);
-  text-transform: uppercase;
-}
-
 h2{
-  text-align: center;
   margin-top: 2rem;  
 }
 
 p{
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   line-height: 1.3;
   text-align: center;  
+  padding: auto; 
+  position: relative;
+  gap: 20px;
+  align-content: center;
+  justify-items: center;  
 }
 
 .menu{
@@ -188,11 +158,11 @@ p{
   gap: 1.25rem;
   flex-wrap: wrap;  
   position: relative;
-  padding-bottom: 10px;
-  
+  margin: 50px auto;
+  justify-content: center;  
 }
 
-.menu a{
+.menu a{  
   display: block;
   background: #fff;
   padding: 1rem 1rem;
@@ -202,20 +172,21 @@ p{
   border: 0.125rem solid #fff;
   text-decoration: none;
 }
+
 .menu a:hover{   
   background-color: rgba(180, 172, 171, 0.726);
 }
 
 .purpura:hover, .gelo:hover, .esmeralda:hover, .tutu:hover, .dofawa:hover{
- background-color: transparent; 
+  background-color: transparent; 
   background-image: url(/img/purpura.png);
   background-repeat: no-repeat;
   background-position: center;
   padding: -3rem 1rem;
   display: inline;
-  background-size: 70px;
+  background-size: 50px;
   position: static;
-  padding-top: 130px;
+  padding-top: 105px;
 }
 
 .esmeralda:hover{
@@ -236,14 +207,13 @@ p{
 
 .conteudo{
   display: grid;
-  max-width: 1050px;
+  max-width: 1000px;
   grid-template-columns: 1fr 1fr; 
   background-color: #fff;
   position: relative;
-  padding-left: -15000px;
 }
 
-.introducao, .introducao-iop, .introducao-osa, .introducao-sram, .introducao-cra, .introducao-xelor, .introducao-enu, .introducao-sad, .introducao-eca, .introducao-eni, .introducao-feca{
+.introducao-default{
   background: #fff;
   padding: 2rem;
   position: static;
@@ -254,7 +224,7 @@ p{
   align-content: right; 
 }
 
-.introducao::before, .introducao-iop::before, .introducao-osa::before, .introducao-sram::before, .introducao-cra::before, .introducao-xelor::before, .introducao-enu::before, .introducao-sad::before, .introducao-eca::before, .introducao-eni::before, .introducao-feca::before{
+.introducao-default::before{
   content: '';
   width: 60px;
   height: 4px;
@@ -309,6 +279,9 @@ p{
  margin-bottom: 1.5rem;
  padding: 0.0rem 16.5rem; 
  transition: 0.5s;
+ display: grid;
+ margin-left: auto;
+ margin-right: auto;
 }
 .icone:hover{
   transform: translateX(10px) scale(1.7);
@@ -331,3 +304,96 @@ p{
   to {
     transform: translateX(0);
   } */
+@media (max-width: 1000px){
+ 
+  body{
+    margin-right: auto;
+  }
+  .select img{
+    max-width: 70% ;
+  }
+
+  .introducao-cover video{      
+    display: block;     
+    max-width: 90%;
+    justify-items: center;
+  }
+  .introducao-cover img{
+    display: block;      
+    max-width: 90%;
+    justify-items: center;
+  }
+  .introducao-default::before{
+    display: none;
+  } 
+
+  p{
+    text-align: center;
+    justify-items: start;
+  }
+  .icone{    
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 825px){
+  .conteudo{
+    grid-template-columns: 1fr;
+  }
+  .introducao-cover video{
+    max-width: 60%;
+    display: block;
+    padding-top: 20px;  
+    padding-bottom: 40px;     
+  }
+  .introducao-cover img{
+    max-width: 60%;
+    display: block;
+    padding-top: 20px;  
+    padding-bottom: 40px; 
+  }
+  .menu a{
+    font-size: 0.9rem;
+    padding: 0.6rem 0.6rem;        
+  }
+  .purpura:hover, .gelo:hover, .esmeralda:hover, .tutu:hover, .dofawa:hover{
+    background-size: 40px;
+    padding-top: 80px;
+  }
+}
+
+@media (max-width: 625px){
+  .menu a{
+    text-align: end;
+    font-size: 0.8rem;
+    justify-items: end;
+  }
+}
+
+@media (max-width: 600px){
+  .menu a{
+    font-size: 13px; 
+    padding: 0.5rem 0.5rem; 
+    margin: auto 10px;     
+    text-align: center;
+    align-self: start;
+  } 
+  p{
+    font-size: 20px;
+    text-align: center;
+  }  
+  .menu{
+    gap: 0rem;
+  }
+  .select img{
+    max-width: 100% ;
+  }
+}
+
+@media (max-width: 580px){
+  .menu{
+    gap: 0.3rem;
+  }
+}
