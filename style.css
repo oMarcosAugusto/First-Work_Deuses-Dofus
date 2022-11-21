@@ -5,7 +5,7 @@ body{
   justify-items: center !important;
   background-color: rgb(247, 247, 247); 
   display: grid; 
-  background-image: url(/img/deusiop.png), url(/img/deusaeni.png), url(/img/eca.png), url(/img/deussad.png), url(/img/deussram.png), url(/img/deusxelor.png),url(/img/deusacra.png), url(/img/deusafeca.png), url(/img/bgdeusasac.webp), url(/img/deuosamodas.png);
+  background-image: url(./img/deusiop.png), url(./img/deusaeni.png), url(./img/eca.png), url(./img/deussad.png), url(./img/deussram.png), url(./img/deusxelor.png),url(./img/deusacra.png), url(./img/deusafeca.png), url(./img/bgdeusasac.webp), url(./img/deuosamodas.png);
   background-position: top left, right 4%, left 25%, right 35%, left 50%, right 65%, left 75%, right 100%, left 100%, right 85%;
   background-repeat: no-repeat;  
   background-size: 30%, 30%, 21%, 18%, 18%, 18%, 20%, 17%, 25%, 20%;
@@ -26,9 +26,9 @@ body{
   top: 0;
   left: 0;
   width: 100%;
-  height: 745%;
+  height: 721%;
   background-repeat: repeat;
-  background-image: url(/img/neve.png);
+  background-image: url(./img/neve.png);
   animation: snow 100s linear infinite;
   overflow: hidden;
 }
@@ -176,7 +176,7 @@ body{
 
 .purpura:hover, .gelo:hover, .esmeralda:hover, .tutu:hover, .dofawa:hover{
   background-color: transparent; 
-  background-image: url(/img/purpura.png);
+  background-image: url(./img/purpura.png);
   background-repeat: no-repeat;
   background-position: center;
   padding: -3rem 1rem;
@@ -187,19 +187,19 @@ body{
 }
 
 .esmeralda:hover{
-  background-image: url(/img/esmeralda.png);
+  background-image: url(./img/esmeralda.png);
 }
 
 .tutu:hover{
-  background-image: url(/img/tutu.png);
+  background-image: url(./img/tutu.png);
 }
 
 .gelo:hover{
-  background-image: url(/img/gelo.png);
+  background-image: url(./img/gelo.png);
 }
 
 .dofawa:hover{
-  background-image: url(/img/dofawa.png);
+  background-image: url(./img/dofawa.png);
 }
 
 .conteudo{
@@ -377,7 +377,7 @@ body{
     text-align: center;
     align-self: start;
   } 
-  p{git 
+  p{ 
     font-size: 20px;
     text-align: center;
   }  
