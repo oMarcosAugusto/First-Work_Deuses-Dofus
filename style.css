@@ -14,7 +14,7 @@ body{
 
 @keyframes snow {
   0%{
-    background-position: 0 0;
+    background-position: auto auto;
   }
   100%{
     background-position: 1% 10000px;
@@ -27,7 +27,7 @@ body{
   top: 0;
   left: 0;
   width: 100%;
-  height: 653%;
+  height: 687%;
   background-repeat: repeat;
   background-image: url(./img/neve.png);
   animation: snow 100s linear infinite;

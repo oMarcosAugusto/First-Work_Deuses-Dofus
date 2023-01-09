@@ -108,10 +108,10 @@ body *{
 
 .btn-login{
   width: 100%;
-  padding: 16px 0px;
-  margin: 25px;
+  padding: 16px 15px;
   border: none;
   border-radius: 6px;
+  text-align: start;
   outline: none;
   text-transform: uppercase;
   font-weight: 800px;
