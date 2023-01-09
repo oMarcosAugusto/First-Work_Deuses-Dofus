@@ -54,7 +54,7 @@ body{
     width: 95%;  
   }
 
-.introducao-cover img{
+.introducao-cover video, img{
   margin: auto;  
   padding-top: 100px;  
   padding-bottom: 100px; 
@@ -79,7 +79,7 @@ body{
   }
 
   .osa{    
-    height: 450px;
+    height: 325px;
     border-block-end: rgba(4, 5, 63, 0.842) dotted 10px;
   }
 
