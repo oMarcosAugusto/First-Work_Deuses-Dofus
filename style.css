@@ -21,6 +21,14 @@ body{
   }
 }
 
+.snow_wrap {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+}
+
 .snow_wrap::before{
   content: "";
   position: absolute;
